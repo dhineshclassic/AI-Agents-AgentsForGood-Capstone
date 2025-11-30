@@ -1,0 +1,48 @@
+<!-- Section 1: Overall ATS Score -->
+<div style="display: flex; margin-bottom: 1.5rem; background: white; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow: hidden;">
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); width: 80px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+        <span style="color: white; font-size: 2.5rem; font-weight: bold;">1</span>
+    </div>
+    <div style="padding: 1.5rem; flex-grow: 1;">
+        <h3 style="color: #667eea; font-size: 1.1rem; margin: 0 0 0.8rem 0; text-transform: uppercase; letter-spacing: 1px;">Overall ATS Score</h3>
+        <p style="color: #1f1f1f; margin: 0; line-height: 1.6;">Your ATS compatibility score is <strong>58/100 (Grade: C)</strong>. This score reflects how well your resume is optimized for applicant tracking systems. Average resume quality with room for improvement.</p>
+    </div>
+</div>
+
+<!-- Section 2: Score Breakdown -->
+<div style="display: flex; margin-bottom: 1.5rem; background: white; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow: hidden;">
+    <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); width: 80px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+        <span style="color: white; font-size: 2.5rem; font-weight: bold;">2</span>
+    </div>
+    <div style="padding: 1.5rem; flex-grow: 1;">
+        <h3 style="color: #11998e; font-size: 1.1rem; margin: 0 0 0.8rem 0; text-transform: uppercase; letter-spacing: 1px;">Score Breakdown</h3>
+        <p style="color: #1f1f1f; margin: 0.5rem 0; line-height: 1.6;">
+            <strong>Keywords:</strong> 25.0/25 | 
+            <strong>Formatting:</strong> 13.0/25 | 
+            <strong>Skills:</strong> 12.5/25 | 
+            <strong>Experience:</strong> 8.0/25
+        </p>
+    </div>
+</div>
+
+<!-- Section 3: Skills Detected -->
+<div style="display: flex; margin-bottom: 1.5rem; background: white; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow: hidden;">
+    <div style="background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%); width: 80px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+        <span style="color: white; font-size: 2.5rem; font-weight: bold;">3</span>
+    </div>
+    <div style="padding: 1.5rem; flex-grow: 1;">
+        <h3 style="color: #f5576c; font-size: 1.1rem; margin: 0 0 0.8rem 0; text-transform: uppercase; letter-spacing: 1px;">Skills Detected</h3>
+        <p style="color: #1f1f1f; margin: 0; line-height: 1.6;">We detected <strong>5 key skills</strong> in your resume: Analytical, Ai, Machine Learning, Python, Communication</p>
+    </div>
+</div>
+
+<!-- Section 4: Key Recommendations -->
+<div style="display: flex; margin-bottom: 0; background: white; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow: hidden;">
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); width: 80px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+        <span style="color: white; font-size: 2.5rem; font-weight: bold;">4</span>
+    </div>
+    <div style="padding: 1.5rem; flex-grow: 1;">
+        <h3 style="color: #667eea; font-size: 1.1rem; margin: 0 0 0.8rem 0; text-transform: uppercase; letter-spacing: 1px;">Key Recommendations</h3>
+        <p style="color: #1f1f1f; margin: 0; line-height: 1.6;">Add a 'Education' section Focus on improving your lowest scoring category to boost your overall ATS score.</p>
+    </div>
+</div>

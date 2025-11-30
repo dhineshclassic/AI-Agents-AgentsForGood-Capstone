@@ -1,0 +1,32 @@
+<div style="margin-bottom: 1.5rem;">
+    <h4 style="margin: 0 0 0.8rem 0; color: #1f1f1f; font-size: 1.1rem;">📊 Overall ATS Score</h4>
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem; border-radius: 8px; text-align: center; margin-bottom: 1rem;">
+        <div style="font-size: 2.5rem; font-weight: bold; margin: 0;">58/100</div>
+        <div style="font-size: 1rem; margin: 0.5rem 0 0 0;">Grade: <strong>C</strong> - Average</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem;">
+        <div style="background: #f5f5f5; padding: 0.8rem; border-radius: 6px;">
+            <strong style="color: #667eea;">Keywords</strong>
+            <div style="font-size: 1.3rem; font-weight: bold; color: #1f1f1f; margin-top: 0.3rem;">25.0/25</div>
+        </div>
+        <div style="background: #f5f5f5; padding: 0.8rem; border-radius: 6px;">
+            <strong style="color: #764ba2;">Formatting</strong>
+            <div style="font-size: 1.3rem; font-weight: bold; color: #1f1f1f; margin-top: 0.3rem;">13.0/25</div>
+        </div>
+        <div style="background: #f5f5f5; padding: 0.8rem; border-radius: 6px;">
+            <strong style="color: #11998e;">Skills</strong>
+            <div style="font-size: 1.3rem; font-weight: bold; color: #1f1f1f; margin-top: 0.3rem;">12.5/25</div>
+        </div>
+        <div style="background: #f5f5f5; padding: 0.8rem; border-radius: 6px;">
+            <strong style="color: #f5576c;">Experience</strong>
+            <div style="font-size: 1.3rem; font-weight: bold; color: #1f1f1f; margin-top: 0.3rem;">8.0/25</div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <h4 style="margin: 0 0 0.8rem 0; color: #1f1f1f; font-size: 1.1rem;">💼 Skills Detected</h4>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+        <span class="skill-tag">Communication</span><span class="skill-tag">Machine Learning</span><span class="skill-tag">Python</span><span class="skill-tag">Analytical</span><span class="skill-tag">Ai</span>
+    </div>
+</div>

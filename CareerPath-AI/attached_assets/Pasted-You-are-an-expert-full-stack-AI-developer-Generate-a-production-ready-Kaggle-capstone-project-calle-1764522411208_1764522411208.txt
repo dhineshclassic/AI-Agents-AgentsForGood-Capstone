@@ -1,0 +1,59 @@
+You are an expert full-stack AI developer.
+Generate a production-ready Kaggle capstone project called "CareerPath AI".
+
+UI Requirement:
+- Use the exact UI concept provided by the user (a dashboard they built yesterday). Do NOT change the layout idea.
+- The dashboard contains sections like: Resume Analyzer, Job Match, Career Roadmap, and optionally Projects if resume includes it.
+- The Projects section should ONLY appear if found in resume; otherwise hide it automatically.
+- Use modern grid/card layout with smooth rounded panels, left sidebar, and clean spacing.
+- Include real-time page transitions and animations using Streamlit-compatible libraries like streamlit-lottie or streamlit-extras.
+- Add real-time element transitions (fade-in, slide-in, zoom-in on cards and text when switching sections).
+- Add a top progress bar or loader animation during AI analysis.
+- Add micro-transitions to inputs, results, and roadmap generation (delayed reveal lines, animated metrics, live typing effect optional).
+- Maintain professionalism and Kaggle-project aesthetics.
+
+Core Features:
+1. **Resume Analyzer**
+   - Upload PDF or DOCX → extract text reliably → analyze ATS score, skills, missing keywords, structured feedback.
+   - Output must animate into view (fade or slide).
+
+2. **Job Matcher**
+   - Job description input compares skills → similarity scoring logic must be realistic and accurate.
+
+3. **Career Path Planner**
+   - Generate roadmap with stage-wise transitions (e.g., Step 1 loads then slides in, Step 2 reveals after delay, etc).
+
+4. **Projects Section**
+   - If resume contains real project details → show it in UI with selectable real-time animated cards.
+   - If missing → do NOT generate the tab or empty section.
+
+Tech & Code Rules:
+- Use free AI API only (choose one like Groq LLaMA, Mistral, Gemini, OpenAI free tier, or etc).
+- Use SQLite or PostgreSQL with **correct SQL schema** to store: ATS score, matched role, missing skills, roadmap.
+- Code must run on Replit with no import errors, missing commands, or version issues.
+- Provide a working `requirements.txt` with valid compatible versions.
+- Main file must be `app.py`
+- Add full error handling for file upload/extraction and API failures.
+- ATS score logic must be deterministic, based on keyword match %, formatting penalties, and skill coverage — no fake randomness.
+
+UX Enhancements:
+- Real-time transition effects between:
+    * sidebar navigation
+    * resume analysis result
+    * job-match comparison
+    * career roadmap steps
+- Add interactive transitions like:
+    * cards sliding in when job matches increase
+    * ATS metrics counting up live instead of flashing
+    * roadmap steps appearing one by one with fade
+
+Return ONLY project files in correct folder structure + working code.
+
+Folder Structure needed:
+│ CareerPath AI
+│  ├── app.py
+│  ├── requirements.txt
+│  ├── schema.sql or database.db
+│  └── utils/
+│        ├── resume_parser.py
+│        └── ats_scorer.py
